@@ -11,8 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ToggleButton"
-        tools:layout_editor_absoluteX="289dp"
-        tools:layout_editor_absoluteY="447dp" />
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -51,23 +53,29 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="117dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="113dp"
+        android:layout_marginLeft="130dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/btn_c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="計算BMI"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="193dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="199dp"
+        android:layout_marginLeft="117dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <TextView
         android:id="@+id/txv_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BMI："
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="305dp" />
+        android:layout_marginLeft="33dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="200dp" />
 
 </android.support.constraint.ConstraintLayout>
