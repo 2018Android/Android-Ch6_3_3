@@ -11,6 +11,63 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ToggleButton"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="130dp" />
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="62dp"
+        android:text="身高(cm)："
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="131dp"
+        android:text="體重(kg)："
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="49dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_w"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="計算BMI"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/txv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI："
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="305dp" />
+
 </android.support.constraint.ConstraintLayout>
